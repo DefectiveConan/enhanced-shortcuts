@@ -8,5 +8,16 @@
         "32": "./icons/32px.png",
         "48": "./icons/48px.png",
         "128": "./icons/128px.png"
+    },
+
+    "background": "background.js",
+    "permissions": ["clipboardWrite", "activeTab"],
+    "commands": {
+        "copy-url": {
+            "description": "Copy the URL of the current active site",
+            "suggested-key": {
+                "default": "Ctrl + Alt + C"
+            }
+        }
     }
 }
