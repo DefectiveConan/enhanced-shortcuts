@@ -1,0 +1,6 @@
+{
+    "manifest_version": 3,
+    "name": "Enhanced Shortcuts",
+    "version": "1.0",
+    "description": "Adding some QOL shortcuts for chromium browsers"
+}
