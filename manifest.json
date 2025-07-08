@@ -2,5 +2,11 @@
     "manifest_version": 3,
     "name": "Enhanced Shortcuts",
     "version": "1.0",
-    "description": "Adding some QOL shortcuts for chromium browsers"
+    "description": "Adding some QOL shortcuts for chromium browsers",
+    "icons": {
+        "16": "./icons/16px.png",
+        "32": "./icons/32px.png",
+        "48": "./icons/48px.png",
+        "128": "./icons/128px.png"
+    }
 }
