@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Enhanced Shortcuts",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Adding some QOL shortcuts for chromium browsers",
     "icons": {
         "16": "./icons/16px.png",
@@ -10,13 +10,16 @@
         "128": "./icons/128px.png"
     },
 
-    "background": "background.js",
+    "background": {
+        "service_worker": "background.js"
+    },
+
     "permissions": ["clipboardWrite", "activeTab"],
     "commands": {
         "copy-url": {
             "description": "Copy the URL of the current active site",
             "suggested-key": {
-                "default": "Ctrl + Alt + C"
+                "default": "Ctrl+Shift+Y"
             }
         }
     }
