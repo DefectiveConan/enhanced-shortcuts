@@ -1,15 +1,20 @@
 // chrome.commands.onCommand.addListener((command) => {
-    // print command activation in the console
-    // console.log(`Command "${command}" triggered`);
-    // clipboard object
-    // const clipBoard = navigator.clipboard;
-    // write text to the clipboard and show an alert to the user
-    // clipBoard.writeText("Check ts out").then(() => {
-        // alert("URL copied");
-    // });
-// })
+//     // print command activation in the console
+//     console.log(`Command ${command} triggered`);
 
-chrome.commands.onCommand.addListener(command => {
-  // This should appear in the SW console when you press Ctrl+Alt+C
-  console.log('Command triggered:', command);
+//     // if the command triggered is the copy one, execute some code
+//     if(command == 'copy-url') {
+//         // write to the clipboard
+//         navigator.clipboard.writeText(
+//             // get the current tab's url
+//             chrome.tabs.getCurrent().url
+//         ).then(() => {
+//             // alert user that the action has been completed
+//             alert("URL copied");
+//         });
+//     }
+// });
+
+chrome.commands.onCommand.addListener((command) => {
+  console.log(`Command: ${command}`);
 });
