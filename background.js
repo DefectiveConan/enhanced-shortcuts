@@ -10,7 +10,7 @@ async function sendCopyRequest(command) {
     console.log(currentURL);
 
     // checking which command is run
-    if(command == 'run-foo') {
+    if(command == 'copy-url') {
         try {
             // creating an offscreen document
             if(!(await chrome.offscreen.hasDocument())) {
