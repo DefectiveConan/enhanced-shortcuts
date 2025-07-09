@@ -19,8 +19,8 @@
     "commands": {
         "run-foo": {
             "suggested-key": {
-                "default": "Ctrl+Shift+Y",
-                "mac": "Command+Shift+Y"
+                "default": "Alt+C",
+                "mac": "Alt+C"
             },
         "description": "Copy the URL of the current active site"
         }
